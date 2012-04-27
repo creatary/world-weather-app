@@ -34,7 +34,7 @@ module WeatherHelper
     day_of_week =(forecast.nil?) ? normalize_day("today") : weather_request.day
     information = weather.forecast_information
     condition = find_conditions_for_day(day_of_week, weather)
-    "Forecast for #{(information.city.empty?) ? "your location" : information.city} on #{condition.day_of_week}: #{condition.condition}, High: #{condition.high}C, Low: #{condition.low}C"
+    "Forecast for #{(information.city.empty?) ? "your location" : information.city} on #{condition.day_of_week}: #{condition.condition}, High: #{condition.high}F, Low: #{condition.low}F"
   end
 
 
