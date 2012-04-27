@@ -1,0 +1,354 @@
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Fetching forecast for Warsaw , err
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Tue
+Can't find a forecast for Tue
+Fetching forecast for Warsaw , Tue
+Can't find a forecast for Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Tue
+Can't find a forecast for Tue
+Fetching forecast for Warsaw , Tue
+Can't find a forecast for Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Wed
+Can't find a forecast for Wed
+Fetching forecast for Warsaw , Tue
+Can't find a forecast for Tue
+Fetching forecast for Warsaw , Tue
+Can't find a forecast for Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Wed
+Can't find a forecast for Wed
+Fetching forecast for Warsaw , Tue
+Can't find a forecast for Tue
+Fetching forecast for Warsaw , Tue
+Can't find a forecast for Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Wed
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Wed
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Wed
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Wed
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Wed
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Wed
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Wed
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err
+Can't find a forecast for err
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , Tue
+Fetching forecast for Warsaw , err, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Can't find a forecast for err
+Fetching forecast for Warsaw , , {"latitude"=>"30000000", "longitude"=>"4000000"}
+Couldn't recognize the date: ""
+Fetching forecast for Warsaw , Thu, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Fetching forecast for Warsaw , Thu, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Fetching forecast for Warsaw , err, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Can't find a forecast for err
+Fetching forecast for Warsaw , , {"latitude"=>"30000000", "longitude"=>"4000000"}
+Couldn't recognize the date: ""
+Fetching forecast for Warsaw , Thu, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Fetching forecast for Warsaw , Tue, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Fetching forecast for Warsaw , err, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Can't find a forecast for err
+Fetching forecast for Warsaw , , {"latitude"=>"30000000", "longitude"=>"4000000"}
+Couldn't recognize the date: ""
+Fetching forecast for Warsaw , Thu, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Fetching forecast for Warsaw , Tue, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , err, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Can't find a forecast for err
+Fetching forecast for Warsaw , , {"latitude"=>"30000000", "longitude"=>"4000000"}
+Couldn't recognize the date: ""
+Fetching forecast for Warsaw , Thu, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Fetching forecast for Warsaw , Tue, {"latitude"=>"30000000", "longitude"=>"4000000"}
+Fetching forecast for Warsaw , err, {}
+Can't find a forecast for err
+Fetching forecast for Warsaw , , {}
+Couldn't recognize the date: ""
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , err, {}
+Can't find a forecast for err
+Fetching forecast for Warsaw , , {}
+Couldn't recognize the date: ""
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , err, {}
+Can't find a forecast for err
+Fetching forecast for Warsaw , , {}
+Couldn't recognize the date: ""
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Can't find a forecast for Sun
+Fetching forecast for Warsaw , , {}
+Can't find a forecast for 
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Can't find a forecast for Sun
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Can't find a forecast for Sun
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Can't find a forecast for Sun
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Can't find a forecast for Sun
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Can't find a forecast for Sun
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Can't find a forecast for Sun
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Can't find a forecast for Sun
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Sun 
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Sun  [#<GoogleWeather::ForecastCondition:0x42256520
+    day_of_week: Tue
+    low: 45
+    high: 67
+    icon: /images/weather/mostly_sunny.gif
+    condition: Partly Sunny>, #<GoogleWeather::ForecastCondition:0x42256500
+    day_of_week: Wed
+    low: 34
+    high: 52
+    icon: /images/weather/mostly_sunny.gif
+    condition: Mostly Sunny>, #<GoogleWeather::ForecastCondition:0x42256480
+    day_of_week: Thu
+    low: 36
+    high: 54
+    icon: /images/weather/mostly_sunny.gif
+    condition: Mostly Sunny>, #<GoogleWeather::ForecastCondition:0x42256460
+    day_of_week: Fri
+    low: 38
+    high: 56
+    icon: /images/weather/mostly_sunny.gif
+    condition: Mostly Sunny>]
+Fetching forecast for Warsaw , Sun, {}
+ Tue == Sun
+ Wed == Sun
+ Thu == Sun
+ Fri == Sun
+Fetching forecast for Sun  [#<GoogleWeather::ForecastCondition:0x52821040
+    day_of_week: Tue
+    low: 45
+    high: 67
+    icon: /images/weather/mostly_sunny.gif
+    condition: Partly Sunny>, #<GoogleWeather::ForecastCondition:0x52821000
+    day_of_week: Wed
+    low: 34
+    high: 52
+    icon: /images/weather/mostly_sunny.gif
+    condition: Mostly Sunny>, #<GoogleWeather::ForecastCondition:0x52820980
+    day_of_week: Thu
+    low: 36
+    high: 54
+    icon: /images/weather/mostly_sunny.gif
+    condition: Mostly Sunny>, #<GoogleWeather::ForecastCondition:0x52820960
+    day_of_week: Fri
+    low: 38
+    high: 56
+    icon: /images/weather/mostly_sunny.gif
+    condition: Mostly Sunny>]
+ Tue == Sun
+ Wed == Sun
+ Thu == Sun
+ Fri == Sun
+Fetching forecast for Warsaw , Sun, {}
+ Tue == Sun
+ Wed == Sun
+ Thu == Sun
+ Fri == Sun
+Fetching forecast for Fri  
+ Tue == Fri
+ Wed == Fri
+ Thu == Fri
+ Fri == Fri
+Fetching forecast for Warsaw , Thu, {}
+ Tue == Thu
+ Wed == Thu
+ Thu == Thu
+Fetching forecast for Thu  #<GoogleWeather::ForecastCondition:0x00000005bf7638>
+ Tue == Thu
+ Wed == Thu
+ Thu == Thu
+Fetching forecast for Warsaw , Tue, {}
+ Tue == Tue
+Fetching forecast for Tue  #<GoogleWeather::ForecastCondition:0x0000000590d850>
+ Tue == Tue
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+ Fri == Fri
+Fetching forecast for Fri  #<GoogleWeather::ForecastCondition:0x000000053771e8>
+ Fri == Fri
+Fetching forecast for Warsaw , Sun, {}
+ Tue == Sun
+ Wed == Sun
+ Thu == Sun
+ Fri == Sun
+Fetching forecast for Fri  
+ Tue == Fri
+ Wed == Fri
+ Thu == Fri
+ Fri == Fri
+Fetching forecast for Warsaw , Thu, {}
+ Tue == Thu
+ Wed == Thu
+ Thu == Thu
+Fetching forecast for Thu  #<GoogleWeather::ForecastCondition:0x000000053c4290>
+ Tue == Thu
+ Wed == Thu
+ Thu == Thu
+Fetching forecast for Warsaw , Tue, {}
+ Tue == Tue
+Fetching forecast for Tue  #<GoogleWeather::ForecastCondition:0x000000051157b0>
+ Tue == Tue
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+ Fri == Fri
+Fetching forecast for Fri  #<GoogleWeather::ForecastCondition:0x00000004c9e2b8>
+ Fri == Fri
+Fetching forecast for Warsaw , Sun, {}
+ Tue == Sun
+ Wed == Sun
+ Thu == Sun
+ Fri == Sun
+Fetching forecast for Fri  
+ Tue == Fri
+ Wed == Fri
+ Thu == Fri
+ Fri == Fri
+Fetching forecast for Warsaw , Sun, {}
+ Tue == Sun
+ Wed == Sun
+ Thu == Sun
+ Fri == Sun
+Fetching forecast for Fri  
+ Tue == Fri
+ Wed == Fri
+ Thu == Fri
+ Fri == Fri
+Fetching forecast for Warsaw , Thu, {}
+ Tue == Thu
+ Wed == Thu
+ Thu == Thu
+Fetching forecast for Thu  #<GoogleWeather::ForecastCondition:0x00000004fbaf50>
+ Tue == Thu
+ Wed == Thu
+ Thu == Thu
+Fetching forecast for Warsaw , Tue, {}
+ Tue == Tue
+Fetching forecast for Tue  #<GoogleWeather::ForecastCondition:0x00000004ecd7c8>
+ Tue == Tue
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+ Fri == Fri
+Fetching forecast for Fri  #<GoogleWeather::ForecastCondition:0x00000004b57da0>
+ Fri == Fri
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}
+Fetching forecast for Warsaw , Sun, {}
+Fetching forecast for Warsaw , Thu, {}
+Fetching forecast for Warsaw , Tue, {}
+Fetching forecast for  , Fri, {"latitude"=>"32221700", "longitude"=>"110925800"}

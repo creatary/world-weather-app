@@ -1,0 +1,11 @@
+development: &defaults
+  consumer_key: 98ptjapb24r69ctw
+  consumer_secret: s8sjs9esyuqd692q
+  consumer_handler: CreataryHandler
+  site: https://telcoassetmarketplace.com
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

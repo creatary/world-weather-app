@@ -1,0 +1,11 @@
+#*
+\#*\#
+*~
+TAGS
+db/schema.rb
+db/*.sqlite3
+coverage/
+*.iml
+.idea/
+.bundle/
+tmp/

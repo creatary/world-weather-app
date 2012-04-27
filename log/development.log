@@ -1,0 +1,1325 @@
+  [1m[36mSQL (0.4ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (178.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (87.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.3ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (121.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (85.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (141.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (96.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (72.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Started GET "/index" for 127.0.0.1 at 2012-04-23 16:53:28 +0200
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 16:53:35 +0200
+
+ActionView::MissingTemplate (Missing template home/index, application/index with {:handlers=>[:erb, :builder], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+):
+  
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 16:56:45 +0200
+
+ActionView::MissingTemplate (Missing template home/index, application/index with {:handlers=>[:erb, :builder], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+):
+  
+
+
+
+Started GET "/index.html" for 127.0.0.1 at 2012-04-23 16:57:29 +0200
+
+ActionController::RoutingError (No route matches [GET] "/index.html"):
+  
+
+
+
+Started GET "/movies" for 127.0.0.1 at 2012-04-23 16:58:06 +0200
+
+ActionController::RoutingError (No route matches [GET] "/movies"):
+  
+
+
+
+Started GET "/weather" for 127.0.0.1 at 2012-04-23 16:58:14 +0200
+
+ActionController::RoutingError (No route matches [GET] "/weather"):
+  
+
+
+
+Started GET "/weather/index" for 127.0.0.1 at 2012-04-23 16:58:18 +0200
+
+ActionController::RoutingError (No route matches [GET] "/weather/index"):
+  
+
+
+
+Started GET "/index" for 127.0.0.1 at 2012-04-23 16:58:24 +0200
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 16:58:29 +0200
+
+ActionView::MissingTemplate (Missing template home/index, application/index with {:handlers=>[:erb, :builder], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+):
+  
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 17:09:53 +0200
+
+ActionView::MissingTemplate (Missing template home/index, application/index with {:handlers=>[:erb, :builder], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+):
+  
+
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 17:15:35 +0200
+
+LoadError (Expected /home/mlip/projects/wather/wather/app/helpers/wather_helper.rb to define WatherHelper):
+  app/controllers/application_controller.rb:4:in `<top (required)>'
+  app/controllers/home_controller.rb:4:in `<top (required)>'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (12.0ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 17:16:02 +0200
+
+LoadError (Expected /home/mlip/projects/wather/wather/app/helpers/wather_helper.rb to define WatherHelper):
+  app/controllers/application_controller.rb:4:in `<top (required)>'
+  app/controllers/home_controller.rb:4:in `<top (required)>'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 17:16:11 +0200
+
+LoadError (Expected /home/mlip/projects/wather/wather/app/helpers/wather_helper.rb to define WatherHelper):
+  app/controllers/application_controller.rb:4:in `<top (required)>'
+  app/controllers/home_controller.rb:4:in `<top (required)>'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.7ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 17:16:43 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 60ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 17:36:51 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-23 17:52:06 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-24 11:09:27 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-24 11:09:28 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 11:09:51 +0200
+Processing the request...
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 11:22:27 +0200
+Processing the request...
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 11:23:16 +0200
+Processing the request...
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 11:24:09 +0200
+Processing the request...
+Sending response... Forecast for Warsaw, Masovian Voivodeship on Tue: Chance of Rain, High: 63F, Low: 50F
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 11:45:31 +0200
+Processing the request...
+[]
+Sending response... Forecast for Warsaw, Masovian Voivodeship on Tue: Chance of Rain, High: 63F, Low: 52F
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 11:46:09 +0200
+Processing the request...
+<?xml version="1.0"?>
+<xml_api_reply version="1">
+  <weather module_id="0" tab_id="0" mobile_row="0" mobile_zipped="1" row="0" section="0">
+    <forecast_information>
+      <city data="Warsaw, Masovian Voivodeship"/>
+      <postal_code data="Warsaw"/>
+      <latitude_e6 data=""/>
+      <longitude_e6 data=""/>
+      <forecast_date data="2012-04-24"/>
+      <current_date_time data="1970-01-01 00:00:00 +0000"/>
+      <unit_system data="US"/>
+    </forecast_information>
+    <current_conditions>
+      <condition data="Partly Cloudy"/>
+      <temp_f data="57"/>
+      <temp_c data="14"/>
+      <humidity data="Humidity: 63%"/>
+      <icon data="/ig/images/weather/partly_cloudy.gif"/>
+      <wind_condition data="Wind: SE at 15 mph"/>
+    </current_conditions>
+    <forecast_conditions>
+      <day_of_week data="Tue"/>
+      <low data="52"/>
+      <high data="63"/>
+      <icon data="/ig/images/weather/chance_of_rain.gif"/>
+      <condition data="Chance of Rain"/>
+    </forecast_conditions>
+    <forecast_conditions>
+      <day_of_week data="Wed"/>
+      <low data="46"/>
+      <high data="61"/>
+      <icon data="/ig/images/weather/chance_of_rain.gif"/>
+      <condition data="Chance of Rain"/>
+    </forecast_conditions>
+    <forecast_conditions>
+      <day_of_week data="Thu"/>
+      <low data="52"/>
+      <high data="72"/>
+      <icon data="/ig/images/weather/sunny.gif"/>
+      <condition data="Clear"/>
+    </forecast_conditions>
+    <forecast_conditions>
+      <day_of_week data="Fri"/>
+      <low data="55"/>
+      <high data="75"/>
+      <icon data="/ig/images/weather/sunny.gif"/>
+      <condition data="Clear"/>
+    </forecast_conditions>
+  </weather>
+</xml_api_reply>
+Sending response... Forecast for Warsaw, Masovian Voivodeship on Tue: Chance of Rain, High: 63F, Low: 52F
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 12:06:15 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-24 13:43:56 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 59ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-24 13:43:56 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-24 13:43:56 +0200
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-24 13:43:56 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-24 13:43:56 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 16:06:34 +0200
+Processing the request...
+Fetching forecast for Warsaw , Tue
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 16:11:17 +0200
+Processing the request...
+Fetching forecast for Warsaw , Tue
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-24 16:12:33 +0200
+Processing the request...
+Fetching forecast for Warsaw , Tue
+Sending response... Forecast for Warsaw, Masovian Voivodeship on Tue: Chance of Rain, High: 64C, Low: 52C
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (128.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (75.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (935.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (72.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (65.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (131.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (71.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (65.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (185.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (77.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (191.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (83.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (224.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (226.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (238.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (130.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (81.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (130.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (84.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (216.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (78.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (150.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (76.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (215.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (90.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (170.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (75.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (298.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (93.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (142.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (88.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (135.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (87.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (150.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (93.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (64.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (178.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (83.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (254.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (190.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (166.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (224.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (81.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (179.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (80.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (152.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (106.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (132.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (91.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (97.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (238.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (243.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (229.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (123.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (69.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:16:06 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (28.2ms)
+Completed 500 Internal Server Error in 91ms
+
+ActionView::Template::Error (undefined local variable or method `authorize' for #<#<Class:0x0000000364b038>:0x00000003636660>):
+    2: %strong= CreataryHandler.received_sms
+    3: 
+    4: 
+    5: %strong= If you want to use wather based on your location you have to authorize
+    6: 
+    7: = link_to 'Authorize', authorize_home_path
+    8: 
+  app/views/home/index.html.haml:5:in `_app_views_home_index_html_haml__3084499907766133112_24115160'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:22:17 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (27.8ms)
+Completed 500 Internal Server Error in 77ms
+
+ActionView::Template::Error (undefined local variable or method `authorize' for #<#<Class:0x000000044545f8>:0x00000004449f40>):
+    2: %strong= CreataryHandler.received_sms
+    3: 
+    4: 
+    5: %strong= If you want to use wather based on your location you have to authorize
+    6: 
+    7: = link_to 'Authorize', creatary_path + '/authorize'
+    8: 
+  app/views/home/index.html.haml:5:in `_app_views_home_index_html_haml___2181267960511234087_32920560'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:23:08 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (29.0ms)
+Completed 500 Internal Server Error in 78ms
+
+ActionView::Template::Error (undefined local variable or method `creatary_path' for #<#<Class:0x00000003fae918>:0x00000003fa42b0>):
+    4: 
+    5: %strong= 'If you want to use wather based on your location you have to authorize'
+    6: 
+    7: = link_to 'Authorize', creatary_path + '/authorize'
+    8: 
+    9: -#todo get coordinates from session
+  app/views/home/index.html.haml:7:in `_app_views_home_index_html_haml___85122389480107896_30480200'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:25:21 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 51ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %strong and nested within it.):
+    1: -#  This file is app/views/movies/index.html.haml
+    2: %strong= CreataryHandler.received_sms
+    3: 
+    4:  = form_tag home_path, :method => :get, :id => 'home' do
+    5: %strong= 'If you want to use wather based on your location you have to authorize'
+    6: 
+    7: = link_to 'Authorize', creatary_path + '/authorize'
+  app/views/home/index.html.haml:4
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:26:15 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (31.1ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0x00000005475770>:0x00000005469dd0>):
+    4: 
+    5: %strong= 'If you want to use wather based on your location you have to authorize'
+    6: 
+    7: = link_to 'Authorize', home_path + '/authorize'
+    8: 
+    9: -#todo get coordinates from session
+  app/views/home/index.html.haml:7:in `_app_views_home_index_html_haml___2366523788370086805_39972220'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:27:10 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 14:27:11 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 14:27:12 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 14:27:12 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 14:27:12 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authorize" for 127.0.0.1 at 2012-04-25 14:27:15 +0200
+
+AbstractController::ActionNotFound (The action 'authorize' could not be found for HomeController):
+  
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:27:47 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 65ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 14:27:48 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 14:27:48 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 14:27:48 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 14:27:48 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authorize" for 127.0.0.1 at 2012-04-25 14:27:53 +0200
+  Processing by HomeController#authorize as HTML
+Completed 500 Internal Server Error in 14ms
+
+NameError (undefined local variable or method `creatary_path' for #<HomeController:0x00000004f6a1b8>):
+  app/controllers/home_controller.rb:9:in `authorize'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:29:03 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (2.2ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 14:29:05 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 14:29:05 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 14:29:05 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 14:29:05 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/authorize" for 127.0.0.1 at 2012-04-25 14:29:07 +0200
+  Processing by HomeController#authorize as HTML
+Redirected to http://localhost:3000/creatary/authorize
+Completed 302 Found in 1ms
+
+
+Started GET "/creatary/authorize" for 127.0.0.1 at 2012-04-25 14:29:07 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:48:50 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 63ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 14:48:51 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 14:48:51 +0200
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 14:48:51 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 14:48:51 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authorize" for 127.0.0.1 at 2012-04-25 14:48:53 +0200
+  Processing by HomeController#authorize as HTML
+Redirected to http://localhost:3000/creatary/authorize
+Completed 302 Found in 1ms
+
+
+Started GET "/creatary/authorize" for 127.0.0.1 at 2012-04-25 14:48:53 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 14:49:37 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 66ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 14:49:38 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 14:49:38 +0200
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 14:49:38 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 14:49:38 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/authorize" for 127.0.0.1 at 2012-04-25 14:49:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/authorize"):
+  
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 15:08:48 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 15:08:50 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 15:08:50 +0200
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 15:08:50 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 15:08:50 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 16:40:43 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 62ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 16:40:44 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 16:40:44 +0200
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 16:40:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 16:40:44 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/receive_sms" for 127.0.0.1 at 2012-04-25 16:44:48 +0200
+
+ActionController::RoutingError (No route matches [POST] "/receive_sms"):
+  
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-25 16:45:00 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-25 16:45:00 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-25 16:45:00 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-25 16:45:01 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-25 16:45:01 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-25 16:45:29 +0200
+Processing the request...
+Fetching forecast for  , , 
+Couldn't recognize the date: ""
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-25 16:49:21 +0200
+Processing the request...
+Fetching forecast for  , , 
+Couldn't recognize the date: ""
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-25 16:50:21 +0200
+Processing the request...
+Fetching forecast for  , , 
+Couldn't recognize the date: ""
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-25 16:51:53 +0200
+Processing the request...
+Fetching forecast for Warsaw , Wed, 
+Sending response... Forecast for Warsaw, Masovian Voivodeship on Wed: Rain, High: 64C, Low: 46C
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-25 16:53:50 +0200
+Processing the request...
+Fetching forecast for Warsaw , , 
+Couldn't recognize the date: ""
+Sending response... Current Weather for Warsaw, Masovian Voivodeship: Cloudy, 15C
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-25 16:54:59 +0200
+Processing the request...
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-25 16:56:23 +0200
+Processing the request...
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (144.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (92.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (199.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (82.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (188.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (90.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (130.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (93.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (155.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Started POST "/creatary/receive_sms" for 127.0.0.1 at 2012-04-26 11:43:46 +0200
+Processing the request:  123456789
+Fetching forecast for Warsaw , Wed, 
+Can't find a forecast for Wed
+Sending response... Current Weather for Warsaw, Masovian Voivodeship: Clear, 18C
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (191.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (92.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (193.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (93.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (106.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (197.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (93.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (65.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (192.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (90.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (192.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (87.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (152.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (88.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (320.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (209.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (212.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (133.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (93.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (130.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (139.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (89.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (90.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (198.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (87.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (56.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (170.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (125.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (282.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (140.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (253.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (255.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (248.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (179.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (135.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (114.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (138.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (96.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (122.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (328.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (158.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (130.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (185.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (118.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (131.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (73.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (97.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (318.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (132.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (110.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (171.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (106.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (131.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (203.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (148.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (154.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (106.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (138.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (300.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (267.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (305.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (201.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (107.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (97.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (421.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (213.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (257.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (150.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (138.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (97.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (162.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (92.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (122.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (141.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (131.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (105.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (138.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (128.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (170.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (104.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (130.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (283.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (216.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (203.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (151.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (93.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (130.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (161.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (97.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (1.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (88.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (139.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (95.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (256.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (128.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (125.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (114.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (207.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (140.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (122.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (155.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (103.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (139.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (90.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (76.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (212.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (94.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (97.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (240.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (252.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (300.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (134.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (93.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (208.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (1560.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (97.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (192.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (95.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (228.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (169.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (149.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (140.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (101.0ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (64.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (182.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (90.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.2ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (72.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (144.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (98.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (164.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (88.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (89.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (126.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (85.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (73.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (258.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (179.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (270.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (127.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (84.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (72.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (134.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (76.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (64.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (142.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (83.9ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (72.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (132.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (79.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (64.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (115.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (77.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (81.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (112.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (89.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (72.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (117.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (77.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (72.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (184.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36m (198.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (238.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-27 10:29:19 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error (end of file reached):
+    1: 
+    2: %strong= CreataryHandler.last_call
+  app/helpers/creatary_handler.rb:29:in `readline'
+  app/helpers/creatary_handler.rb:29:in `last_call'
+  app/views/home/index.html.haml:2:in `_app_views_home_index_html_haml___2461548513081899898_29746360'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-27 10:37:34 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 48ms
+
+ActionView::Template::Error (end of file reached):
+    1: -#  This file is app/views/movies/index.html.haml
+    2: %strong= CreataryHandler.last_call
+  app/helpers/creatary_handler.rb:29:in `readline'
+  app/helpers/creatary_handler.rb:29:in `last_call'
+  app/views/home/index.html.haml:2:in `_app_views_home_index_html_haml__1761721018206452717_27725800'
+
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/mlip/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-04-27 10:38:20 +0200
+  Processing by HomeController#index as HTML
+Rendered home/index.html.haml within layouts/application (1.4ms)
+Compiled application.css  (15ms)  (pid 28470)
+Compiled application.js  (8ms)  (pid 28470)
+Compiled jquery.js  (25ms)  (pid 28470)
+Compiled jquery_ujs.js  (12ms)  (pid 28470)
+Completed 200 OK in 178ms (Views: 177.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-04-27 10:38:21 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-04-27 10:38:21 +0200
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-04-27 10:38:21 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-04-27 10:38:21 +0200
+Served asset /application.js - 304 Not Modified (0ms)
