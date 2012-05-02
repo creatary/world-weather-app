@@ -2,7 +2,6 @@ require 'rubygems'
 require 'open-uri'
 require 'nokogiri'
 require 'google_weather.rb'
-
 module WeatherHelper
 
   include DayParser
@@ -34,7 +33,7 @@ module WeatherHelper
     day_of_week =(forecast.nil?) ? normalize_day("today") : weather_request.day
     information = weather.forecast_information
     condition = find_conditions_for_day(day_of_week, weather)
-    "Forecast for #{(information.city.empty?) ? "your location" : information.city} on #{condition.day_of_week}: #{condition.condition}, High: #{condition.high}F, Low: #{condition.low}F"
+    "Forecast for #{(information.city.empty?) ? "your location" : information.city} on #{condition.day_of_week}:#{condition.condition}, High: #{condition.high}F / #{condition.high.in_celcius}C, Low: #{condition.low}F / #{condition.low.in_celcius}C"
   end
 
 
@@ -47,5 +46,14 @@ module WeatherHelper
     end
     return nil
   end
+
+end
+
+class String
+
+  def in_celcius()
+    ((self.to_f-32)*(5.0/9)).round.to_s
+  end
+
 end
 
