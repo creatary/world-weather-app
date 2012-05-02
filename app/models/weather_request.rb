@@ -1,5 +1,5 @@
 include DayParser
-include CoordinatesParser
+
 
 class WeatherRequest
 
@@ -8,13 +8,13 @@ class WeatherRequest
     arguments = body.split(" ")
 
     if arguments.size==1
-      @coordinates = normalize Creatary::API.getcoord(from_user)["body"]
+      @coordinates = SubscriberLocation.new.get_location from_user
     elsif arguments.size==2
       @day = normalize_day(arguments[1])
       if @day.nil?
         @location = arguments[1]
       else
-        @coordinates = normalize Creatary::API.getcoord(from_user)["body"]
+        @coordinates = SubscriberLocation.new.get_location from_user
       end
 
     elsif arguments.size==3
