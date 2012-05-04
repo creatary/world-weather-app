@@ -8,7 +8,7 @@ module WeatherHelper
 
   def fetch_forecast(weather_request)
 
-    Rails.logger.info "Fetching forecast for #{ weather_request.location} , #{weather_request.day}, #{weather_request.coordinates}"
+    Rails.logger.info "Fetching forecast for #{ weather_request.location}, #{weather_request.coordinates}"
 
     if weather_request.location.nil?
       weather = weather_for_coordinates(weather_request)
@@ -16,7 +16,7 @@ module WeatherHelper
       weather = weather_for_location(weather_request)
     end
 
-    forecast_conditions(weather_request, weather)
+    forecast_conditions(weather)
 
   end
 
@@ -28,25 +28,20 @@ module WeatherHelper
     GoogleWeather.new(",,,#{weather_request.coordinates["latitude"]},#{weather_request.coordinates["longitude"]}")
   end
 
-  def forecast_conditions(weather_request, weather)
-    forecast = find_conditions_for_day(weather_request.day, weather)
-    day_of_week =(forecast.nil?) ? normalize_day("today") : weather_request.day
+  def forecast_conditions(weather)
+
     information = weather.forecast_information
-    condition = find_conditions_for_day(day_of_week, weather)
-    "Forecast for #{(information.city.empty?) ? "your location" : information.city} on #{condition.day_of_week}:#{condition.condition}, High: #{condition.high}F / #{condition.high.in_celcius}C, Low: #{condition.low}F / #{condition.low.in_celcius}C"
-  end
+    result = "#{(information.city.empty?) ? "Your location" : information.city.split(",").shift} "
 
-
-  def find_conditions_for_day(day_of_week, weather)
-    conditions = weather.forecast_conditions
-    conditions.each do |condition|
-      if  condition.day_of_week == day_of_week
-        return condition
+    weather.forecast_conditions.each do |condition|
+      string = " #{condition.day_of_week}:#{condition.condition}, #{condition.high.in_celcius}/#{condition.low.in_celcius}C"
+      if result.length + string.length < 160
+        result.concat string
       end
     end
-    return nil
-  end
 
+    return result
+  end
 end
 
 class String

@@ -10,6 +10,8 @@ class CreataryHandler
     weather_request = WeatherRequest.new body, from_user
     response = fetch_forecast weather_request
 
+    Rails.logger.info "Sending response... #{response} to request #{body}"
+
     Creatary::API.send_sms(to_app, from_user, response, transaction_id)
 
     log_request(body, from_user, response, weather_request)
