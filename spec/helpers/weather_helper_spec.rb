@@ -26,6 +26,15 @@ describe WeatherHelper do
         fetch_forecast(@weather_request).should include "Your location"
       end
 
+      it "returns error message for wrong location" do
+        FakeWeb.register_uri(:get, "http://www.google.com/ig/api?weather=NoExistingCity&hl=en&oe=utf-8", :body => fixture_file("fixtures/error.xml"))
+        @weather_request = double("weather_request")
+        @weather_request.stub(:location).and_return("NoExistingCity")
+        @weather_request.stub(:coordinates).and_return({})
+
+        fetch_forecast(@weather_request).should include "No weather information for NoExistingCity"
+      end
+
   end
 
 end
