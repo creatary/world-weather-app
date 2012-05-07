@@ -12,8 +12,8 @@ describe WeatherHelper do
         @weather_request.stub(:location).and_return("Warsaw")
 
         forecast = fetch_forecast(@weather_request)
-        forecast.should include "67"
-        forecast.should include "45"
+        forecast.should include "19"
+        forecast.should include "7"
         forecast.should include "Partly Sunny"
       end
 
