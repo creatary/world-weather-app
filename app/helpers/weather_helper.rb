@@ -15,6 +15,10 @@ module WeatherHelper
       weather = weather_for_location(weather_request)
     end
 
+    if weather.forecast_information.data.nil?
+      return "No weather information for #{(weather_request.location.nil?)?"Your location":weather_request.location}"
+    end
+
     forecast_conditions(weather)
 
   end
