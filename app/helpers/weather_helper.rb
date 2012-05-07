@@ -3,8 +3,7 @@ require 'open-uri'
 require 'nokogiri'
 require 'google_weather.rb'
 module WeatherHelper
-
-  include DayParser
+  SMS_LENGHT = 160
 
   def fetch_forecast(weather_request)
 
@@ -28,6 +27,7 @@ module WeatherHelper
     GoogleWeather.new(",,,#{weather_request.coordinates["latitude"]},#{weather_request.coordinates["longitude"]}")
   end
 
+
   def forecast_conditions(weather)
 
     information = weather.forecast_information
@@ -35,12 +35,12 @@ module WeatherHelper
 
     weather.forecast_conditions.each do |condition|
       string = " #{condition.day_of_week}:#{condition.condition}, #{condition.high.in_celcius}/#{condition.low.in_celcius}C"
-      if result.length + string.length < 160
+      if result.length + string.length < SMS_LENGHT
         result.concat string
       end
     end
 
-    return result
+    result
   end
 end
 
