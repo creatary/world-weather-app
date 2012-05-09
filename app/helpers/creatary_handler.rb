@@ -12,7 +12,7 @@ class CreataryHandler
 
     Rails.logger.info "Sending response... #{response} to request #{body}"
 
-    Creatary::API.send_sms(to_app, from_user, response, transaction_id)
+    Creatary::API.send_sms(to_app, from_user, response)
 
     log_request(body, from_user, response, weather_request)
 
